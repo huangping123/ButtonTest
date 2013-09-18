@@ -10,15 +10,12 @@
 
 @protocol QCheckBoxDelegate;
 
-@interface QCheckBox : UIButton {
-    id<QCheckBoxDelegate> _delegate;
-    BOOL _checked;
-    id _userInfo;
-}
+@interface QCheckBox : UIButton
 
-@property(nonatomic, assign)id<QCheckBoxDelegate> delegate;
-@property(nonatomic, assign)BOOL checked;
-@property(nonatomic, retain)id userInfo;
+
+@property(nonatomic, weak)id<QCheckBoxDelegate> delegate;
+@property(nonatomic)BOOL checked;
+@property(nonatomic, strong)id userInfo;
 
 - (id)initWithDelegate:(id)delegate;
 

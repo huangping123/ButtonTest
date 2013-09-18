@@ -18,6 +18,36 @@
 		01FC925517E9434100D9FD07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC925417E9434100D9FD07 /* Default-568h@2x.png */; };
 		01FC925817E9434100D9FD07 /* BUTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC925717E9434100D9FD07 /* BUTViewController.m */; };
 		01FC925B17E9434100D9FD07 /* BUTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FC925917E9434100D9FD07 /* BUTViewController.xib */; };
+		01FC926817E94AFC00D9FD07 /* checkbox1_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926217E94AFC00D9FD07 /* checkbox1_checked.png */; };
+		01FC926917E94AFC00D9FD07 /* checkbox1_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926317E94AFC00D9FD07 /* checkbox1_checked@2x.png */; };
+		01FC926A17E94AFC00D9FD07 /* checkbox1_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926417E94AFC00D9FD07 /* checkbox1_unchecked.png */; };
+		01FC926B17E94AFC00D9FD07 /* checkbox1_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926517E94AFC00D9FD07 /* checkbox1_unchecked@2x.png */; };
+		01FC926C17E94AFC00D9FD07 /* QCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC926717E94AFC00D9FD07 /* QCheckBox.m */; };
+		01FC927417E9539100D9FD07 /* QRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC926F17E9539100D9FD07 /* QRadioButton.m */; };
+		01FC927517E9539100D9FD07 /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927017E9539100D9FD07 /* radio_checked.png */; };
+		01FC927617E9539100D9FD07 /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927117E9539100D9FD07 /* radio_checked@2x.png */; };
+		01FC927717E9539100D9FD07 /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927217E9539100D9FD07 /* radio_unchecked.png */; };
+		01FC927817E9539100D9FD07 /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927317E9539100D9FD07 /* radio_unchecked@2x.png */; };
+		01FC928E17E9589300D9FD07 /* cb_box_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927A17E9589300D9FD07 /* cb_box_off.png */; };
+		01FC928F17E9589300D9FD07 /* cb_box_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */; };
+		01FC929017E9589300D9FD07 /* cb_box_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927C17E9589300D9FD07 /* cb_box_on.png */; };
+		01FC929117E9589300D9FD07 /* cb_box_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927D17E9589300D9FD07 /* cb_box_on@2x.png */; };
+		01FC929217E9589300D9FD07 /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927E17E9589300D9FD07 /* cb_dark_off.png */; };
+		01FC929317E9589300D9FD07 /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927F17E9589300D9FD07 /* cb_dark_off@2x.png */; };
+		01FC929417E9589300D9FD07 /* cb_dark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928017E9589300D9FD07 /* cb_dark_on.png */; };
+		01FC929517E9589300D9FD07 /* cb_dark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928117E9589300D9FD07 /* cb_dark_on@2x.png */; };
+		01FC929617E9589300D9FD07 /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928217E9589300D9FD07 /* cb_glossy_off.png */; };
+		01FC929717E9589300D9FD07 /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928317E9589300D9FD07 /* cb_glossy_off@2x.png */; };
+		01FC929817E9589300D9FD07 /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928417E9589300D9FD07 /* cb_glossy_on.png */; };
+		01FC929917E9589300D9FD07 /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928517E9589300D9FD07 /* cb_glossy_on@2x.png */; };
+		01FC929A17E9589300D9FD07 /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928617E9589300D9FD07 /* cb_green_off.png */; };
+		01FC929B17E9589300D9FD07 /* cb_green_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928717E9589300D9FD07 /* cb_green_off@2x.png */; };
+		01FC929C17E9589300D9FD07 /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928817E9589300D9FD07 /* cb_green_on.png */; };
+		01FC929D17E9589300D9FD07 /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928917E9589300D9FD07 /* cb_green_on@2x.png */; };
+		01FC929E17E9589300D9FD07 /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928A17E9589300D9FD07 /* cb_mono_off.png */; };
+		01FC929F17E9589300D9FD07 /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */; };
+		01FC92A017E9589300D9FD07 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928C17E9589300D9FD07 /* cb_mono_on.png */; };
+		01FC92A117E9589300D9FD07 /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +67,38 @@
 		01FC925617E9434100D9FD07 /* BUTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUTViewController.h; sourceTree = "<group>"; };
 		01FC925717E9434100D9FD07 /* BUTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUTViewController.m; sourceTree = "<group>"; };
 		01FC925A17E9434100D9FD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BUTViewController.xib; sourceTree = "<group>"; };
+		01FC926217E94AFC00D9FD07 /* checkbox1_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_checked.png; sourceTree = "<group>"; };
+		01FC926317E94AFC00D9FD07 /* checkbox1_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_checked@2x.png"; sourceTree = "<group>"; };
+		01FC926417E94AFC00D9FD07 /* checkbox1_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_unchecked.png; sourceTree = "<group>"; };
+		01FC926517E94AFC00D9FD07 /* checkbox1_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_unchecked@2x.png"; sourceTree = "<group>"; };
+		01FC926617E94AFC00D9FD07 /* QCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCheckBox.h; sourceTree = "<group>"; };
+		01FC926717E94AFC00D9FD07 /* QCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCheckBox.m; sourceTree = "<group>"; };
+		01FC926E17E9539100D9FD07 /* QRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioButton.h; sourceTree = "<group>"; };
+		01FC926F17E9539100D9FD07 /* QRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioButton.m; sourceTree = "<group>"; };
+		01FC927017E9539100D9FD07 /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
+		01FC927117E9539100D9FD07 /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
+		01FC927217E9539100D9FD07 /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
+		01FC927317E9539100D9FD07 /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
+		01FC927A17E9589300D9FD07 /* cb_box_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_off.png; sourceTree = "<group>"; };
+		01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
+		01FC927C17E9589300D9FD07 /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
+		01FC927D17E9589300D9FD07 /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
+		01FC927E17E9589300D9FD07 /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
+		01FC927F17E9589300D9FD07 /* cb_dark_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_off@2x.png"; sourceTree = "<group>"; };
+		01FC928017E9589300D9FD07 /* cb_dark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_on.png; sourceTree = "<group>"; };
+		01FC928117E9589300D9FD07 /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
+		01FC928217E9589300D9FD07 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
+		01FC928317E9589300D9FD07 /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
+		01FC928417E9589300D9FD07 /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
+		01FC928517E9589300D9FD07 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
+		01FC928617E9589300D9FD07 /* cb_green_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_off.png; sourceTree = "<group>"; };
+		01FC928717E9589300D9FD07 /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
+		01FC928817E9589300D9FD07 /* cb_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_on.png; sourceTree = "<group>"; };
+		01FC928917E9589300D9FD07 /* cb_green_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_on@2x.png"; sourceTree = "<group>"; };
+		01FC928A17E9589300D9FD07 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
+		01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
+		01FC928C17E9589300D9FD07 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
+		01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +145,8 @@
 		01FC924417E9434100D9FD07 /* ButtonTest */ = {
 			isa = PBXGroup;
 			children = (
+				01FC926D17E9539100D9FD07 /* QRadioButton */,
+				01FC926117E94AFC00D9FD07 /* QCheckbox */,
 				01FC924D17E9434100D9FD07 /* BUTAppDelegate.h */,
 				01FC924E17E9434100D9FD07 /* BUTAppDelegate.m */,
 				01FC925617E9434100D9FD07 /* BUTViewController.h */,
@@ -105,6 +169,60 @@
 				01FC925417E9434100D9FD07 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01FC926117E94AFC00D9FD07 /* QCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				01FC927917E9589300D9FD07 /* Graphics */,
+				01FC926217E94AFC00D9FD07 /* checkbox1_checked.png */,
+				01FC926317E94AFC00D9FD07 /* checkbox1_checked@2x.png */,
+				01FC926417E94AFC00D9FD07 /* checkbox1_unchecked.png */,
+				01FC926517E94AFC00D9FD07 /* checkbox1_unchecked@2x.png */,
+				01FC926617E94AFC00D9FD07 /* QCheckBox.h */,
+				01FC926717E94AFC00D9FD07 /* QCheckBox.m */,
+			);
+			path = QCheckbox;
+			sourceTree = "<group>";
+		};
+		01FC926D17E9539100D9FD07 /* QRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				01FC926E17E9539100D9FD07 /* QRadioButton.h */,
+				01FC926F17E9539100D9FD07 /* QRadioButton.m */,
+				01FC927017E9539100D9FD07 /* radio_checked.png */,
+				01FC927117E9539100D9FD07 /* radio_checked@2x.png */,
+				01FC927217E9539100D9FD07 /* radio_unchecked.png */,
+				01FC927317E9539100D9FD07 /* radio_unchecked@2x.png */,
+			);
+			path = QRadioButton;
+			sourceTree = "<group>";
+		};
+		01FC927917E9589300D9FD07 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				01FC927A17E9589300D9FD07 /* cb_box_off.png */,
+				01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */,
+				01FC927C17E9589300D9FD07 /* cb_box_on.png */,
+				01FC927D17E9589300D9FD07 /* cb_box_on@2x.png */,
+				01FC927E17E9589300D9FD07 /* cb_dark_off.png */,
+				01FC927F17E9589300D9FD07 /* cb_dark_off@2x.png */,
+				01FC928017E9589300D9FD07 /* cb_dark_on.png */,
+				01FC928117E9589300D9FD07 /* cb_dark_on@2x.png */,
+				01FC928217E9589300D9FD07 /* cb_glossy_off.png */,
+				01FC928317E9589300D9FD07 /* cb_glossy_off@2x.png */,
+				01FC928417E9589300D9FD07 /* cb_glossy_on.png */,
+				01FC928517E9589300D9FD07 /* cb_glossy_on@2x.png */,
+				01FC928617E9589300D9FD07 /* cb_green_off.png */,
+				01FC928717E9589300D9FD07 /* cb_green_off@2x.png */,
+				01FC928817E9589300D9FD07 /* cb_green_on.png */,
+				01FC928917E9589300D9FD07 /* cb_green_on@2x.png */,
+				01FC928A17E9589300D9FD07 /* cb_mono_off.png */,
+				01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */,
+				01FC928C17E9589300D9FD07 /* cb_mono_on.png */,
+				01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */,
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +282,34 @@
 				01FC925317E9434100D9FD07 /* Default@2x.png in Resources */,
 				01FC925517E9434100D9FD07 /* Default-568h@2x.png in Resources */,
 				01FC925B17E9434100D9FD07 /* BUTViewController.xib in Resources */,
+				01FC926817E94AFC00D9FD07 /* checkbox1_checked.png in Resources */,
+				01FC926917E94AFC00D9FD07 /* checkbox1_checked@2x.png in Resources */,
+				01FC926A17E94AFC00D9FD07 /* checkbox1_unchecked.png in Resources */,
+				01FC926B17E94AFC00D9FD07 /* checkbox1_unchecked@2x.png in Resources */,
+				01FC927517E9539100D9FD07 /* radio_checked.png in Resources */,
+				01FC927617E9539100D9FD07 /* radio_checked@2x.png in Resources */,
+				01FC927717E9539100D9FD07 /* radio_unchecked.png in Resources */,
+				01FC927817E9539100D9FD07 /* radio_unchecked@2x.png in Resources */,
+				01FC928E17E9589300D9FD07 /* cb_box_off.png in Resources */,
+				01FC928F17E9589300D9FD07 /* cb_box_off@2x.png in Resources */,
+				01FC929017E9589300D9FD07 /* cb_box_on.png in Resources */,
+				01FC929117E9589300D9FD07 /* cb_box_on@2x.png in Resources */,
+				01FC929217E9589300D9FD07 /* cb_dark_off.png in Resources */,
+				01FC929317E9589300D9FD07 /* cb_dark_off@2x.png in Resources */,
+				01FC929417E9589300D9FD07 /* cb_dark_on.png in Resources */,
+				01FC929517E9589300D9FD07 /* cb_dark_on@2x.png in Resources */,
+				01FC929617E9589300D9FD07 /* cb_glossy_off.png in Resources */,
+				01FC929717E9589300D9FD07 /* cb_glossy_off@2x.png in Resources */,
+				01FC929817E9589300D9FD07 /* cb_glossy_on.png in Resources */,
+				01FC929917E9589300D9FD07 /* cb_glossy_on@2x.png in Resources */,
+				01FC929A17E9589300D9FD07 /* cb_green_off.png in Resources */,
+				01FC929B17E9589300D9FD07 /* cb_green_off@2x.png in Resources */,
+				01FC929C17E9589300D9FD07 /* cb_green_on.png in Resources */,
+				01FC929D17E9589300D9FD07 /* cb_green_on@2x.png in Resources */,
+				01FC929E17E9589300D9FD07 /* cb_mono_off.png in Resources */,
+				01FC929F17E9589300D9FD07 /* cb_mono_off@2x.png in Resources */,
+				01FC92A017E9589300D9FD07 /* cb_mono_on.png in Resources */,
+				01FC92A117E9589300D9FD07 /* cb_mono_on@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +323,8 @@
 				01FC924B17E9434100D9FD07 /* main.m in Sources */,
 				01FC924F17E9434100D9FD07 /* BUTAppDelegate.m in Sources */,
 				01FC925817E9434100D9FD07 /* BUTViewController.m in Sources */,
+				01FC926C17E94AFC00D9FD07 /* QCheckBox.m in Sources */,
+				01FC927417E9539100D9FD07 /* QRadioButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,15 +10,11 @@
 
 @protocol QRadioButtonDelegate;
 
-@interface QRadioButton : UIButton {
-    NSString                        *_groupId;
-    BOOL                            _checked;
-    id<QRadioButtonDelegate>       _delegate;
-}
+@interface QRadioButton : UIButton
 
-@property(nonatomic, assign)id<QRadioButtonDelegate>   delegate;
-@property(nonatomic, copy, readonly)NSString            *groupId;
-@property(nonatomic, assign)BOOL checked;
+@property(nonatomic, weak)id<QRadioButtonDelegate>   delegate;
+@property(nonatomic, copy)NSString            *groupId;
+@property(nonatomic)BOOL checked;
 
 - (id)initWithDelegate:(id)delegate groupId:(NSString*)groupId;
 

@@ -10,14 +10,39 @@
 
 #define Q_RADIO_ICON_WH                     (16.0)
 #define Q_ICON_TITLE_MARGIN                 (5.0)
+#define Q_ICON_X                            (0.0)
 
+@interface QRadioButton()
+-(void) setDefaultValue;
+@end
 
-static NSMutableDictionary *_groupRadioDic = nil;
 
 @implementation QRadioButton
+static NSMutableDictionary *_groupRadioDic = nil;
 
-@synthesize delegate = _delegate;
-@synthesize checked  = _checked;
+-(void) setDefaultValue
+{
+    self.exclusiveTouch = YES;
+    [self setImage:[UIImage imageNamed:@"radio_unchecked.png"] forState:UIControlStateNormal];
+    [self setImage:[UIImage imageNamed:@"radio_checked.png"] forState:UIControlStateSelected];
+    [self addTarget:self action:@selector(radioBtnChecked) forControlEvents:UIControlEventTouchUpInside];
+
+
+}
+
+-(id) initWithCoder:(NSCoder *)aDecoder
+{
+    if([super initWithCoder:aDecoder])
+    {
+        [self setDefaultValue];
+    
+    }
+    return self;
+}
+
+
+
+
 
 - (id)initWithDelegate:(id)delegate groupId:(NSString*)groupId {
     self = [super init];
@@ -27,18 +52,25 @@ static NSMutableDictionary *_groupRadioDic = nil;
         
         [self addToGroup];
         
-        self.exclusiveTouch = YES;
+        [self setDefaultValue];
         
-        [self setImage:[UIImage imageNamed:@"radio_unchecked.png"] forState:UIControlStateNormal];
-        [self setImage:[UIImage imageNamed:@"radio_checked.png"] forState:UIControlStateSelected];
-        [self addTarget:self action:@selector(radioBtnChecked) forControlEvents:UIControlEventTouchUpInside];
+
     }
     return self;
 }
 
+-(void) setGroupId:(NSString *)groupId
+{
+    [self removeFromGroup];
+    _groupId = [groupId copy];
+    [self addToGroup];
+}
+
+
+
 - (void)addToGroup {
     if(!_groupRadioDic){
-        _groupRadioDic = [[NSMutableDictionary dictionary] retain];
+        _groupRadioDic = [NSMutableDictionary dictionary] ;
     }
     
     NSMutableArray *_gRadios = [_groupRadioDic objectForKey:_groupId];
@@ -108,12 +140,12 @@ static NSMutableDictionary *_groupRadioDic = nil;
 }
 
 - (CGRect)imageRectForContentRect:(CGRect)contentRect {
-    return CGRectMake(0, (CGRectGetHeight(contentRect) - Q_RADIO_ICON_WH)/2.0, Q_RADIO_ICON_WH, Q_RADIO_ICON_WH);
+    return CGRectMake(Q_ICON_X, (CGRectGetHeight(contentRect) - Q_RADIO_ICON_WH)/2.0, Q_RADIO_ICON_WH, Q_RADIO_ICON_WH);
 }
 
 - (CGRect)titleRectForContentRect:(CGRect)contentRect {
-    return CGRectMake(Q_RADIO_ICON_WH + Q_ICON_TITLE_MARGIN, 0,
-                      CGRectGetWidth(contentRect) - Q_RADIO_ICON_WH - Q_ICON_TITLE_MARGIN,
+    return CGRectMake(Q_RADIO_ICON_WH + Q_ICON_TITLE_MARGIN+Q_ICON_X, 0,
+                      CGRectGetWidth(contentRect) - Q_RADIO_ICON_WH - Q_ICON_TITLE_MARGIN-Q_ICON_X,
                       CGRectGetHeight(contentRect));
 }
 
@@ -122,10 +154,6 @@ static NSMutableDictionary *_groupRadioDic = nil;
 - (void)dealloc {
     [self removeFromGroup];
     
-    _delegate = nil;
-    [_groupId release];
-    _groupId = nil;
-    [super dealloc];
 }
 
 
