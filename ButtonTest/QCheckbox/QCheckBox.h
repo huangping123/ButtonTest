@@ -17,7 +17,10 @@
 @property(nonatomic)BOOL checked;
 @property(nonatomic, strong)id userInfo;
 
+
+
 - (id)initWithDelegate:(id)delegate;
+- (void) setcheckedImage:(UIImage *)checkedImage uncheckedImage:(UIImage *)uncheckedImage;
 
 @end
 

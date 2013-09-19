@@ -15,17 +15,26 @@
 
 @interface QCheckBox()
 
--(void) setDefaultValue;
+
+
+-(void) configureCheckedButton;
+
 
 @end
 
 @implementation QCheckBox
 
--(void) setDefaultValue
+
+- (void) setcheckedImage:(UIImage *)checkedImage uncheckedImage:(UIImage *)uncheckedImage
+{
+    [self setImage:checkedImage forState:UIControlStateSelected | UIControlStateHighlighted];
+    [self setImage:uncheckedImage forState:UIControlStateNormal];
+    
+}
+
+-(void) configureCheckedButton
 {
     self.exclusiveTouch = YES;
-    [self setImage:[UIImage imageNamed:@"cb_box_off.png"] forState:UIControlStateNormal];
-    [self setImage:[UIImage imageNamed:@"cb_box_on.png"] forState:UIControlStateSelected];
     [self addTarget:self action:@selector(checkboxBtnChecked) forControlEvents:UIControlEventTouchUpInside];
 }
 
@@ -34,20 +43,33 @@
 {
     if(self = [super initWithCoder:aDecoder])
     {
+        [self configureCheckedButton];
         NSLog(@"QcheckBox initWithCoder");
-        [self setDefaultValue];
     
     }
     
     return self;
 
 }
+-(id) initWithFrame:(CGRect)frame
+{
+    if(self = [super initWithFrame:frame])
+    {
+        NSLog(@"QcheckBox initWithFrame");
+        [self configureCheckedButton];
+
+    
+    }
+    return self;
+}
+
 
 - (id)initWithDelegate:(id)delegate {
     self = [super init];
     if (self) {
         _delegate = delegate;
-        [self setDefaultValue];
+        [self configureCheckedButton];
+
     }
     return self;
 }
@@ -66,7 +88,9 @@
 }
 
 - (void)checkboxBtnChecked {
+    
     self.selected = !self.selected;
+    NSLog(@"Qchecked %d",self.selected);
     _checked = self.selected;
     
     if (_delegate && [_delegate respondsToSelector:@selector(didSelectedCheckBox:checked:)]) {
@@ -74,6 +98,7 @@
     }
 }
 
+/*
 - (CGRect)imageRectForContentRect:(CGRect)contentRect {
     return CGRectMake(Q_ICON_X, (CGRectGetHeight(contentRect) - Q_CHECK_ICON_WH)/2.0, Q_CHECK_ICON_WH, Q_CHECK_ICON_WH);
 }
@@ -84,6 +109,7 @@
                       CGRectGetWidth(contentRect) - Q_CHECK_ICON_WH - Q_ICON_TITLE_MARGIN-Q_ICON_X,
                       CGRectGetHeight(contentRect));
 }
+*/
  
 
 - (void)dealloc {

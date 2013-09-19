@@ -8,7 +8,7 @@
 
 #import "QRadioButton.h"
 
-#define Q_RADIO_ICON_WH                     (16.0)
+#define Q_RADIO_ICON_WH                     (18.0)
 #define Q_ICON_TITLE_MARGIN                 (5.0)
 #define Q_ICON_X                            (0.0)
 
@@ -20,15 +20,20 @@
 @implementation QRadioButton
 static NSMutableDictionary *_groupRadioDic = nil;
 
+- (void) setcheckedImage:(UIImage *)checkedImage uncheckedImage:(UIImage *)uncheckedImage
+{
+    [self setImage:checkedImage forState:UIControlStateSelected];
+    [self setImage:uncheckedImage forState:UIControlStateNormal];
+    
+}
+
 -(void) setDefaultValue
 {
     self.exclusiveTouch = YES;
-    [self setImage:[UIImage imageNamed:@"radio_unchecked.png"] forState:UIControlStateNormal];
-    [self setImage:[UIImage imageNamed:@"radio_checked.png"] forState:UIControlStateSelected];
-    [self addTarget:self action:@selector(radioBtnChecked) forControlEvents:UIControlEventTouchUpInside];
-
-
+    [self addTarget:self action:@selector(radioBtnCheckedTouchUpInside) forControlEvents:UIControlEventTouchUpInside];
+    
 }
+
 
 -(id) initWithCoder:(NSCoder *)aDecoder
 {
@@ -120,14 +125,21 @@ static NSMutableDictionary *_groupRadioDic = nil;
         [_delegate didSelectedRadioButton:self groupId:_groupId];
     }
 }
-
-- (void)radioBtnChecked {
-    if (_checked) {
+- (void)radioBtnCheckedTouchUpInside {
+    
+    NSLog(@"radioBtnCheckedTouchUpInside %d",self.selected);
+    if(_checked)
+    {
         return;
+    
     }
     
-    self.selected = !self.selected;
-    _checked = self.selected;
+    if(!self.selected)
+    {
+        self.selected = !self.selected;
+    }
+    
+    self.checked = self.selected;
     
     if (self.selected) {
         [self uncheckOtherRadios];
@@ -137,8 +149,14 @@ static NSMutableDictionary *_groupRadioDic = nil;
         [_delegate didSelectedRadioButton:self groupId:_groupId];
         
     }
+
+
+
 }
 
+
+
+/*
 - (CGRect)imageRectForContentRect:(CGRect)contentRect {
     return CGRectMake(Q_ICON_X, (CGRectGetHeight(contentRect) - Q_RADIO_ICON_WH)/2.0, Q_RADIO_ICON_WH, Q_RADIO_ICON_WH);
 }
@@ -148,8 +166,9 @@ static NSMutableDictionary *_groupRadioDic = nil;
                       CGRectGetWidth(contentRect) - Q_RADIO_ICON_WH - Q_ICON_TITLE_MARGIN-Q_ICON_X,
                       CGRectGetHeight(contentRect));
 }
+ 
 
-
+*/
 
 - (void)dealloc {
     [self removeFromGroup];

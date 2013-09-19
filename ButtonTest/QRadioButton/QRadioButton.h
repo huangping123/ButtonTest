@@ -17,6 +17,7 @@
 @property(nonatomic)BOOL checked;
 
 - (id)initWithDelegate:(id)delegate groupId:(NSString*)groupId;
+- (void) setcheckedImage:(UIImage *)checkedImage uncheckedImage:(UIImage *)uncheckedImage;
 
 @end
 

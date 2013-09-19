@@ -48,6 +48,11 @@
 		01FC929F17E9589300D9FD07 /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */; };
 		01FC92A017E9589300D9FD07 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928C17E9589300D9FD07 /* cb_mono_on.png */; };
 		01FC92A117E9589300D9FD07 /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */; };
+		01FFD0AB17EAB9DC00F02610 /* 023-vote-item-box-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0A917EAB9DB00F02610 /* 023-vote-item-box-1.png */; };
+		01FFD0AC17EAB9DC00F02610 /* 024-vote-item-box-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0AA17EAB9DC00F02610 /* 024-vote-item-box-2.png */; };
+		01FFD0B017EAD7CA00F02610 /* RatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FFD0AF17EAD7CA00F02610 /* RatingControl.m */; };
+		01FFD0B217EADF9E00F02610 /* 035-vote-star-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0B117EADF9E00F02610 /* 035-vote-star-1.png */; };
+		01FFD0B417EADFA700F02610 /* 036-vote-star-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0B317EADFA700F02610 /* 036-vote-star-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +104,12 @@
 		01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
 		01FC928C17E9589300D9FD07 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
 		01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
+		01FFD0A917EAB9DB00F02610 /* 023-vote-item-box-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "023-vote-item-box-1.png"; sourceTree = "<group>"; };
+		01FFD0AA17EAB9DC00F02610 /* 024-vote-item-box-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "024-vote-item-box-2.png"; sourceTree = "<group>"; };
+		01FFD0AE17EAD7CA00F02610 /* RatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingControl.h; sourceTree = "<group>"; };
+		01FFD0AF17EAD7CA00F02610 /* RatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingControl.m; sourceTree = "<group>"; };
+		01FFD0B117EADF9E00F02610 /* 035-vote-star-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "035-vote-star-1.png"; path = "../../../../Downloads/最终切图/最终切图/035-vote-star-1.png"; sourceTree = "<group>"; };
+		01FFD0B317EADFA700F02610 /* 036-vote-star-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "036-vote-star-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +156,7 @@
 		01FC924417E9434100D9FD07 /* ButtonTest */ = {
 			isa = PBXGroup;
 			children = (
+				01FFD0AD17EAD7C900F02610 /* AMRatingControl */,
 				01FC926D17E9539100D9FD07 /* QRadioButton */,
 				01FC926117E94AFC00D9FD07 /* QCheckbox */,
 				01FC924D17E9434100D9FD07 /* BUTAppDelegate.h */,
@@ -201,6 +213,8 @@
 		01FC927917E9589300D9FD07 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				01FFD0A917EAB9DB00F02610 /* 023-vote-item-box-1.png */,
+				01FFD0AA17EAB9DC00F02610 /* 024-vote-item-box-2.png */,
 				01FC927A17E9589300D9FD07 /* cb_box_off.png */,
 				01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */,
 				01FC927C17E9589300D9FD07 /* cb_box_on.png */,
@@ -223,6 +237,17 @@
 				01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */,
 			);
 			path = Graphics;
+			sourceTree = "<group>";
+		};
+		01FFD0AD17EAD7C900F02610 /* AMRatingControl */ = {
+			isa = PBXGroup;
+			children = (
+				01FFD0B317EADFA700F02610 /* 036-vote-star-2.png */,
+				01FFD0B117EADF9E00F02610 /* 035-vote-star-1.png */,
+				01FFD0AE17EAD7CA00F02610 /* RatingControl.h */,
+				01FFD0AF17EAD7CA00F02610 /* RatingControl.m */,
+			);
+			path = AMRatingControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +335,10 @@
 				01FC929F17E9589300D9FD07 /* cb_mono_off@2x.png in Resources */,
 				01FC92A017E9589300D9FD07 /* cb_mono_on.png in Resources */,
 				01FC92A117E9589300D9FD07 /* cb_mono_on@2x.png in Resources */,
+				01FFD0AB17EAB9DC00F02610 /* 023-vote-item-box-1.png in Resources */,
+				01FFD0AC17EAB9DC00F02610 /* 024-vote-item-box-2.png in Resources */,
+				01FFD0B217EADF9E00F02610 /* 035-vote-star-1.png in Resources */,
+				01FFD0B417EADFA700F02610 /* 036-vote-star-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +354,7 @@
 				01FC925817E9434100D9FD07 /* BUTViewController.m in Sources */,
 				01FC926C17E94AFC00D9FD07 /* QCheckBox.m in Sources */,
 				01FC927417E9539100D9FD07 /* QRadioButton.m in Sources */,
+				01FFD0B017EAD7CA00F02610 /* RatingControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +477,7 @@
 				01FC926017E9434100D9FD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
