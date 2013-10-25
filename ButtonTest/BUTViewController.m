@@ -7,9 +7,11 @@
 //
 
 #import "BUTViewController.h"
-#import "QRadioButton.h"
-#import "QCheckBox.h"
-#import "RatingControl.h"
+#import "CUIRadioButton.h"
+#import "CUICheckBox.h"
+#import "CUIRatingControl.h"
+
+
 #define BUTTON_IMAGE_W (22)
 #define BUTTON_IMAGE_H (22)
 
@@ -28,21 +30,17 @@
 
 
 @interface BUTViewController ()
-- (IBAction)touchDownTest:(id)sender;
+@property (weak, nonatomic) IBOutlet  CUIRatingControl*ratingControl;
 
-- (IBAction)touchUpInside:(id)sender;
-
-- (IBAction)touchUpOutside:(id)sender;
-@property (weak, nonatomic) IBOutlet QRadioButton *QRadioButton1;
-@property (weak, nonatomic) IBOutlet QRadioButton *QRadioButton2;
-@property (weak, nonatomic) IBOutlet QRadioButton *QRadioButton3;
-
-@property (weak, nonatomic) IBOutlet  QCheckBox *testEventButton;
-
-- (IBAction)getInfoButtonPressed:(id)sender;
-@property (weak, nonatomic) IBOutlet UIView *ratingViewContainer;
+@property (weak, nonatomic) IBOutlet CUIRadioButton *QRadioButton1;
+@property (weak, nonatomic) IBOutlet CUIRadioButton *QRadioButton2;
+@property (weak, nonatomic) IBOutlet CUIRadioButton *QRadioButton3;
 
 
+
+
+
+@property (weak, nonatomic) IBOutlet CUICheckBox *checkBox;
 @end
 
 @implementation BUTViewController
@@ -52,26 +50,25 @@ NSString *const testGroupID = @"testGroupID";
 {
     [super viewDidLoad];
     
+
+    //一组单选按钮
     self.QRadioButton1.groupId = testGroupID;
     self.QRadioButton2.groupId = testGroupID;
     self.QRadioButton3.groupId = testGroupID;
+    [CUIRadioButton setcheckedImage:[UIImage imageNamed:@"radio_checked.png"] uncheckedImage:[UIImage imageNamed:@"radio_unchecked.png"] withGroupId:testGroupID];
+    
+    //复选框
+    [_checkBox setcheckedImage:[UIImage imageNamed:@"checkbox_checked.png"] uncheckedImage:[UIImage imageNamed:@"checkbox_unchecked.png"]];
+    
+    //类似于淘宝评分
+    _ratingControl.imageInterval = 10;
+    _ratingControl.imageSize = CGSizeMake(30, 30);
+    _ratingControl.startLocation = CGPointMake(30, 10);
+    _ratingControl.solidImage = [UIImage imageNamed:@"solidstar.png"];
+    _ratingControl.emptyImage = [UIImage imageNamed:@"emptystar.png"];
     
     
-    CGRect bound = _testEventButton.bounds;
     
-    _testEventButton.imageEdgeInsets = UIEdgeInsetsMake((bound.size.height-BUTTON_IMAGE_H)/2, BUTTON_IMAGE_INSET_LEFT, (bound.size.height-BUTTON_IMAGE_H)/2, bound.size.width - BUTTON_IMAGE_INSET_LEFT - BUTTON_IMAGE_W);
-    
-    
-    _testEventButton.titleEdgeInsets = UIEdgeInsetsMake((bound.size.height-BUTTON_IMAGE_H)/2, BUTTON_TITLE_MARGIN + BUTTON_IMAGE_INSET_LEFT + BUTTON_IMAGE_W, (bound.size.height-BUTTON_IMAGE_H)/2, BUTTON_IMAGE_INSET_RIGHT);
-    
-
-    RatingControl *control = [[RatingControl alloc] initWithLocation:CGPointZero emptyImage:[UIImage imageNamed:@"036-vote-star-2.png"] solidImage:[UIImage imageNamed:@"035-vote-star-1.png"] imageSize:CGSizeMake(28,28) imageInterval:14 andMaxRating:5];
-     
-    /*
-    RatingControl *control = [[RatingControl alloc] initWithLocation:CGPointZero emptyImage:[UIImage imageNamed:@"036-vote-star-2.png"] solidImage:[UIImage imageNamed:@"036-vote-star-1.png"] andMaxRating:5];
-    */
-    [self.ratingViewContainer addSubview:control];
-    [control setNeedsDisplay];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -82,32 +79,4 @@ NSString *const testGroupID = @"testGroupID";
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)touchDownTest:(id)sender {
-    NSLog(@"touchDownTest");
-    NSLog(@"%d",self.testEventButton.state);
-}
-
-- (IBAction)touchUpInside:(id)sender {
-    NSLog(@"touchUpInside");
-    NSLog(@"%d",self.testEventButton.state);
-
-}
-
-- (IBAction)touchUpOutside:(id)sender {
-    NSLog(@"touchUpOutside");
-    NSLog(@"%d",self.testEventButton.state);
-
-}
-
--(void) printRect:(CGRect)rect
-{
-    NSLog(@"x= %f y = %f width = %f height = %f",rect.origin.x,rect.origin.y,rect.size.width,rect.size.height);
-}
-
-- (IBAction)getInfoButtonPressed:(id)sender {
-    NSLog(@"%@",_testEventButton);
-    
-    
-    
-}
 @end

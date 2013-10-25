@@ -18,41 +18,19 @@
 		01FC925517E9434100D9FD07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC925417E9434100D9FD07 /* Default-568h@2x.png */; };
 		01FC925817E9434100D9FD07 /* BUTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC925717E9434100D9FD07 /* BUTViewController.m */; };
 		01FC925B17E9434100D9FD07 /* BUTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FC925917E9434100D9FD07 /* BUTViewController.xib */; };
-		01FC926817E94AFC00D9FD07 /* checkbox1_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926217E94AFC00D9FD07 /* checkbox1_checked.png */; };
-		01FC926917E94AFC00D9FD07 /* checkbox1_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926317E94AFC00D9FD07 /* checkbox1_checked@2x.png */; };
-		01FC926A17E94AFC00D9FD07 /* checkbox1_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926417E94AFC00D9FD07 /* checkbox1_unchecked.png */; };
-		01FC926B17E94AFC00D9FD07 /* checkbox1_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC926517E94AFC00D9FD07 /* checkbox1_unchecked@2x.png */; };
-		01FC926C17E94AFC00D9FD07 /* QCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC926717E94AFC00D9FD07 /* QCheckBox.m */; };
-		01FC927417E9539100D9FD07 /* QRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC926F17E9539100D9FD07 /* QRadioButton.m */; };
-		01FC927517E9539100D9FD07 /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927017E9539100D9FD07 /* radio_checked.png */; };
-		01FC927617E9539100D9FD07 /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927117E9539100D9FD07 /* radio_checked@2x.png */; };
-		01FC927717E9539100D9FD07 /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927217E9539100D9FD07 /* radio_unchecked.png */; };
-		01FC927817E9539100D9FD07 /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927317E9539100D9FD07 /* radio_unchecked@2x.png */; };
-		01FC928E17E9589300D9FD07 /* cb_box_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927A17E9589300D9FD07 /* cb_box_off.png */; };
-		01FC928F17E9589300D9FD07 /* cb_box_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */; };
-		01FC929017E9589300D9FD07 /* cb_box_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927C17E9589300D9FD07 /* cb_box_on.png */; };
-		01FC929117E9589300D9FD07 /* cb_box_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927D17E9589300D9FD07 /* cb_box_on@2x.png */; };
-		01FC929217E9589300D9FD07 /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927E17E9589300D9FD07 /* cb_dark_off.png */; };
-		01FC929317E9589300D9FD07 /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC927F17E9589300D9FD07 /* cb_dark_off@2x.png */; };
-		01FC929417E9589300D9FD07 /* cb_dark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928017E9589300D9FD07 /* cb_dark_on.png */; };
-		01FC929517E9589300D9FD07 /* cb_dark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928117E9589300D9FD07 /* cb_dark_on@2x.png */; };
-		01FC929617E9589300D9FD07 /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928217E9589300D9FD07 /* cb_glossy_off.png */; };
-		01FC929717E9589300D9FD07 /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928317E9589300D9FD07 /* cb_glossy_off@2x.png */; };
-		01FC929817E9589300D9FD07 /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928417E9589300D9FD07 /* cb_glossy_on.png */; };
-		01FC929917E9589300D9FD07 /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928517E9589300D9FD07 /* cb_glossy_on@2x.png */; };
-		01FC929A17E9589300D9FD07 /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928617E9589300D9FD07 /* cb_green_off.png */; };
-		01FC929B17E9589300D9FD07 /* cb_green_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928717E9589300D9FD07 /* cb_green_off@2x.png */; };
-		01FC929C17E9589300D9FD07 /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928817E9589300D9FD07 /* cb_green_on.png */; };
-		01FC929D17E9589300D9FD07 /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928917E9589300D9FD07 /* cb_green_on@2x.png */; };
-		01FC929E17E9589300D9FD07 /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928A17E9589300D9FD07 /* cb_mono_off.png */; };
-		01FC929F17E9589300D9FD07 /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */; };
-		01FC92A017E9589300D9FD07 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928C17E9589300D9FD07 /* cb_mono_on.png */; };
-		01FC92A117E9589300D9FD07 /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */; };
-		01FFD0AB17EAB9DC00F02610 /* 023-vote-item-box-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0A917EAB9DB00F02610 /* 023-vote-item-box-1.png */; };
-		01FFD0AC17EAB9DC00F02610 /* 024-vote-item-box-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0AA17EAB9DC00F02610 /* 024-vote-item-box-2.png */; };
-		01FFD0B017EAD7CA00F02610 /* RatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FFD0AF17EAD7CA00F02610 /* RatingControl.m */; };
-		01FFD0B217EADF9E00F02610 /* 035-vote-star-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0B117EADF9E00F02610 /* 035-vote-star-1.png */; };
-		01FFD0B417EADFA700F02610 /* 036-vote-star-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FFD0B317EADFA700F02610 /* 036-vote-star-2.png */; };
+		8AFAF5F3181A459800A3EAAB /* CUICheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFAF5E7181A459800A3EAAB /* CUICheckBox.m */; };
+		8AFAF5F4181A459800A3EAAB /* CUIRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFAF5EA181A459800A3EAAB /* CUIRadioButton.m */; };
+		8AFAF5FD181A45C700A3EAAB /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF5F9181A45C700A3EAAB /* checkbox_checked.png */; };
+		8AFAF5FE181A45C700A3EAAB /* checkbox_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF5FA181A45C700A3EAAB /* checkbox_checked@2x.png */; };
+		8AFAF5FF181A45C700A3EAAB /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF5FB181A45C700A3EAAB /* checkbox_unchecked.png */; };
+		8AFAF600181A45C700A3EAAB /* checkbox_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF5FC181A45C700A3EAAB /* checkbox_unchecked@2x.png */; };
+		8AFAF605181A45D000A3EAAB /* radio_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF601181A45D000A3EAAB /* radio_checked.png */; };
+		8AFAF606181A45D000A3EAAB /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF602181A45D000A3EAAB /* radio_checked@2x.png */; };
+		8AFAF607181A45D000A3EAAB /* radio_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF603181A45D000A3EAAB /* radio_unchecked.png */; };
+		8AFAF608181A45D000A3EAAB /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF604181A45D000A3EAAB /* radio_unchecked@2x.png */; };
+		8AFAF60E181A712A00A3EAAB /* CUIRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFAF60B181A712A00A3EAAB /* CUIRatingControl.m */; };
+		8AFAF60F181A712A00A3EAAB /* emptystar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF60C181A712A00A3EAAB /* emptystar@2x.png */; };
+		8AFAF610181A712A00A3EAAB /* solidstar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAF60D181A712A00A3EAAB /* solidstar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,44 +50,22 @@
 		01FC925617E9434100D9FD07 /* BUTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUTViewController.h; sourceTree = "<group>"; };
 		01FC925717E9434100D9FD07 /* BUTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUTViewController.m; sourceTree = "<group>"; };
 		01FC925A17E9434100D9FD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BUTViewController.xib; sourceTree = "<group>"; };
-		01FC926217E94AFC00D9FD07 /* checkbox1_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_checked.png; sourceTree = "<group>"; };
-		01FC926317E94AFC00D9FD07 /* checkbox1_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_checked@2x.png"; sourceTree = "<group>"; };
-		01FC926417E94AFC00D9FD07 /* checkbox1_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_unchecked.png; sourceTree = "<group>"; };
-		01FC926517E94AFC00D9FD07 /* checkbox1_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_unchecked@2x.png"; sourceTree = "<group>"; };
-		01FC926617E94AFC00D9FD07 /* QCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCheckBox.h; sourceTree = "<group>"; };
-		01FC926717E94AFC00D9FD07 /* QCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCheckBox.m; sourceTree = "<group>"; };
-		01FC926E17E9539100D9FD07 /* QRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioButton.h; sourceTree = "<group>"; };
-		01FC926F17E9539100D9FD07 /* QRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioButton.m; sourceTree = "<group>"; };
-		01FC927017E9539100D9FD07 /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
-		01FC927117E9539100D9FD07 /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
-		01FC927217E9539100D9FD07 /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
-		01FC927317E9539100D9FD07 /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
-		01FC927A17E9589300D9FD07 /* cb_box_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_off.png; sourceTree = "<group>"; };
-		01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
-		01FC927C17E9589300D9FD07 /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
-		01FC927D17E9589300D9FD07 /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
-		01FC927E17E9589300D9FD07 /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
-		01FC927F17E9589300D9FD07 /* cb_dark_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_off@2x.png"; sourceTree = "<group>"; };
-		01FC928017E9589300D9FD07 /* cb_dark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_on.png; sourceTree = "<group>"; };
-		01FC928117E9589300D9FD07 /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
-		01FC928217E9589300D9FD07 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
-		01FC928317E9589300D9FD07 /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
-		01FC928417E9589300D9FD07 /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
-		01FC928517E9589300D9FD07 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
-		01FC928617E9589300D9FD07 /* cb_green_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_off.png; sourceTree = "<group>"; };
-		01FC928717E9589300D9FD07 /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
-		01FC928817E9589300D9FD07 /* cb_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_on.png; sourceTree = "<group>"; };
-		01FC928917E9589300D9FD07 /* cb_green_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_on@2x.png"; sourceTree = "<group>"; };
-		01FC928A17E9589300D9FD07 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
-		01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
-		01FC928C17E9589300D9FD07 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
-		01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
-		01FFD0A917EAB9DB00F02610 /* 023-vote-item-box-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "023-vote-item-box-1.png"; sourceTree = "<group>"; };
-		01FFD0AA17EAB9DC00F02610 /* 024-vote-item-box-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "024-vote-item-box-2.png"; sourceTree = "<group>"; };
-		01FFD0AE17EAD7CA00F02610 /* RatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingControl.h; sourceTree = "<group>"; };
-		01FFD0AF17EAD7CA00F02610 /* RatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingControl.m; sourceTree = "<group>"; };
-		01FFD0B117EADF9E00F02610 /* 035-vote-star-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "035-vote-star-1.png"; path = "../../../../Downloads/最终切图/最终切图/035-vote-star-1.png"; sourceTree = "<group>"; };
-		01FFD0B317EADFA700F02610 /* 036-vote-star-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "036-vote-star-2.png"; sourceTree = "<group>"; };
+		8AFAF5E6181A459800A3EAAB /* CUICheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUICheckBox.h; sourceTree = "<group>"; };
+		8AFAF5E7181A459800A3EAAB /* CUICheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUICheckBox.m; sourceTree = "<group>"; };
+		8AFAF5E9181A459800A3EAAB /* CUIRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRadioButton.h; sourceTree = "<group>"; };
+		8AFAF5EA181A459800A3EAAB /* CUIRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRadioButton.m; sourceTree = "<group>"; };
+		8AFAF5F9181A45C700A3EAAB /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		8AFAF5FA181A45C700A3EAAB /* checkbox_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_checked@2x.png"; sourceTree = "<group>"; };
+		8AFAF5FB181A45C700A3EAAB /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		8AFAF5FC181A45C700A3EAAB /* checkbox_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_unchecked@2x.png"; sourceTree = "<group>"; };
+		8AFAF601181A45D000A3EAAB /* radio_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked.png; sourceTree = "<group>"; };
+		8AFAF602181A45D000A3EAAB /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
+		8AFAF603181A45D000A3EAAB /* radio_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked.png; sourceTree = "<group>"; };
+		8AFAF604181A45D000A3EAAB /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
+		8AFAF60A181A712A00A3EAAB /* CUIRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIRatingControl.h; sourceTree = "<group>"; };
+		8AFAF60B181A712A00A3EAAB /* CUIRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIRatingControl.m; sourceTree = "<group>"; };
+		8AFAF60C181A712A00A3EAAB /* emptystar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emptystar@2x.png"; sourceTree = "<group>"; };
+		8AFAF60D181A712A00A3EAAB /* solidstar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "solidstar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,9 +112,9 @@
 		01FC924417E9434100D9FD07 /* ButtonTest */ = {
 			isa = PBXGroup;
 			children = (
-				01FFD0AD17EAD7C900F02610 /* AMRatingControl */,
-				01FC926D17E9539100D9FD07 /* QRadioButton */,
-				01FC926117E94AFC00D9FD07 /* QCheckbox */,
+				8AFAF609181A712A00A3EAAB /* CUIRatingControl */,
+				8AFAF5E1181A459800A3EAAB /* CUICheckbox */,
+				8AFAF5E8181A459800A3EAAB /* CUIRadioButton */,
 				01FC924D17E9434100D9FD07 /* BUTAppDelegate.h */,
 				01FC924E17E9434100D9FD07 /* BUTAppDelegate.m */,
 				01FC925617E9434100D9FD07 /* BUTViewController.h */,
@@ -183,71 +139,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01FC926117E94AFC00D9FD07 /* QCheckbox */ = {
+		8AFAF5E1181A459800A3EAAB /* CUICheckbox */ = {
 			isa = PBXGroup;
 			children = (
-				01FC927917E9589300D9FD07 /* Graphics */,
-				01FC926217E94AFC00D9FD07 /* checkbox1_checked.png */,
-				01FC926317E94AFC00D9FD07 /* checkbox1_checked@2x.png */,
-				01FC926417E94AFC00D9FD07 /* checkbox1_unchecked.png */,
-				01FC926517E94AFC00D9FD07 /* checkbox1_unchecked@2x.png */,
-				01FC926617E94AFC00D9FD07 /* QCheckBox.h */,
-				01FC926717E94AFC00D9FD07 /* QCheckBox.m */,
+				8AFAF5F9181A45C700A3EAAB /* checkbox_checked.png */,
+				8AFAF5FA181A45C700A3EAAB /* checkbox_checked@2x.png */,
+				8AFAF5FB181A45C700A3EAAB /* checkbox_unchecked.png */,
+				8AFAF5FC181A45C700A3EAAB /* checkbox_unchecked@2x.png */,
+				8AFAF5E6181A459800A3EAAB /* CUICheckBox.h */,
+				8AFAF5E7181A459800A3EAAB /* CUICheckBox.m */,
 			);
-			path = QCheckbox;
+			path = CUICheckbox;
 			sourceTree = "<group>";
 		};
-		01FC926D17E9539100D9FD07 /* QRadioButton */ = {
+		8AFAF5E8181A459800A3EAAB /* CUIRadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				01FC926E17E9539100D9FD07 /* QRadioButton.h */,
-				01FC926F17E9539100D9FD07 /* QRadioButton.m */,
-				01FC927017E9539100D9FD07 /* radio_checked.png */,
-				01FC927117E9539100D9FD07 /* radio_checked@2x.png */,
-				01FC927217E9539100D9FD07 /* radio_unchecked.png */,
-				01FC927317E9539100D9FD07 /* radio_unchecked@2x.png */,
+				8AFAF601181A45D000A3EAAB /* radio_checked.png */,
+				8AFAF602181A45D000A3EAAB /* radio_checked@2x.png */,
+				8AFAF603181A45D000A3EAAB /* radio_unchecked.png */,
+				8AFAF604181A45D000A3EAAB /* radio_unchecked@2x.png */,
+				8AFAF5E9181A459800A3EAAB /* CUIRadioButton.h */,
+				8AFAF5EA181A459800A3EAAB /* CUIRadioButton.m */,
 			);
-			path = QRadioButton;
+			path = CUIRadioButton;
 			sourceTree = "<group>";
 		};
-		01FC927917E9589300D9FD07 /* Graphics */ = {
+		8AFAF609181A712A00A3EAAB /* CUIRatingControl */ = {
 			isa = PBXGroup;
 			children = (
-				01FFD0A917EAB9DB00F02610 /* 023-vote-item-box-1.png */,
-				01FFD0AA17EAB9DC00F02610 /* 024-vote-item-box-2.png */,
-				01FC927A17E9589300D9FD07 /* cb_box_off.png */,
-				01FC927B17E9589300D9FD07 /* cb_box_off@2x.png */,
-				01FC927C17E9589300D9FD07 /* cb_box_on.png */,
-				01FC927D17E9589300D9FD07 /* cb_box_on@2x.png */,
-				01FC927E17E9589300D9FD07 /* cb_dark_off.png */,
-				01FC927F17E9589300D9FD07 /* cb_dark_off@2x.png */,
-				01FC928017E9589300D9FD07 /* cb_dark_on.png */,
-				01FC928117E9589300D9FD07 /* cb_dark_on@2x.png */,
-				01FC928217E9589300D9FD07 /* cb_glossy_off.png */,
-				01FC928317E9589300D9FD07 /* cb_glossy_off@2x.png */,
-				01FC928417E9589300D9FD07 /* cb_glossy_on.png */,
-				01FC928517E9589300D9FD07 /* cb_glossy_on@2x.png */,
-				01FC928617E9589300D9FD07 /* cb_green_off.png */,
-				01FC928717E9589300D9FD07 /* cb_green_off@2x.png */,
-				01FC928817E9589300D9FD07 /* cb_green_on.png */,
-				01FC928917E9589300D9FD07 /* cb_green_on@2x.png */,
-				01FC928A17E9589300D9FD07 /* cb_mono_off.png */,
-				01FC928B17E9589300D9FD07 /* cb_mono_off@2x.png */,
-				01FC928C17E9589300D9FD07 /* cb_mono_on.png */,
-				01FC928D17E9589300D9FD07 /* cb_mono_on@2x.png */,
+				8AFAF60A181A712A00A3EAAB /* CUIRatingControl.h */,
+				8AFAF60B181A712A00A3EAAB /* CUIRatingControl.m */,
+				8AFAF60C181A712A00A3EAAB /* emptystar@2x.png */,
+				8AFAF60D181A712A00A3EAAB /* solidstar@2x.png */,
 			);
-			path = Graphics;
-			sourceTree = "<group>";
-		};
-		01FFD0AD17EAD7C900F02610 /* AMRatingControl */ = {
-			isa = PBXGroup;
-			children = (
-				01FFD0B317EADFA700F02610 /* 036-vote-star-2.png */,
-				01FFD0B117EADF9E00F02610 /* 035-vote-star-1.png */,
-				01FFD0AE17EAD7CA00F02610 /* RatingControl.h */,
-				01FFD0AF17EAD7CA00F02610 /* RatingControl.m */,
-			);
-			path = AMRatingControl;
+			path = CUIRatingControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,39 +232,17 @@
 				01FC925117E9434100D9FD07 /* Default.png in Resources */,
 				01FC925317E9434100D9FD07 /* Default@2x.png in Resources */,
 				01FC925517E9434100D9FD07 /* Default-568h@2x.png in Resources */,
+				8AFAF5FF181A45C700A3EAAB /* checkbox_unchecked.png in Resources */,
 				01FC925B17E9434100D9FD07 /* BUTViewController.xib in Resources */,
-				01FC926817E94AFC00D9FD07 /* checkbox1_checked.png in Resources */,
-				01FC926917E94AFC00D9FD07 /* checkbox1_checked@2x.png in Resources */,
-				01FC926A17E94AFC00D9FD07 /* checkbox1_unchecked.png in Resources */,
-				01FC926B17E94AFC00D9FD07 /* checkbox1_unchecked@2x.png in Resources */,
-				01FC927517E9539100D9FD07 /* radio_checked.png in Resources */,
-				01FC927617E9539100D9FD07 /* radio_checked@2x.png in Resources */,
-				01FC927717E9539100D9FD07 /* radio_unchecked.png in Resources */,
-				01FC927817E9539100D9FD07 /* radio_unchecked@2x.png in Resources */,
-				01FC928E17E9589300D9FD07 /* cb_box_off.png in Resources */,
-				01FC928F17E9589300D9FD07 /* cb_box_off@2x.png in Resources */,
-				01FC929017E9589300D9FD07 /* cb_box_on.png in Resources */,
-				01FC929117E9589300D9FD07 /* cb_box_on@2x.png in Resources */,
-				01FC929217E9589300D9FD07 /* cb_dark_off.png in Resources */,
-				01FC929317E9589300D9FD07 /* cb_dark_off@2x.png in Resources */,
-				01FC929417E9589300D9FD07 /* cb_dark_on.png in Resources */,
-				01FC929517E9589300D9FD07 /* cb_dark_on@2x.png in Resources */,
-				01FC929617E9589300D9FD07 /* cb_glossy_off.png in Resources */,
-				01FC929717E9589300D9FD07 /* cb_glossy_off@2x.png in Resources */,
-				01FC929817E9589300D9FD07 /* cb_glossy_on.png in Resources */,
-				01FC929917E9589300D9FD07 /* cb_glossy_on@2x.png in Resources */,
-				01FC929A17E9589300D9FD07 /* cb_green_off.png in Resources */,
-				01FC929B17E9589300D9FD07 /* cb_green_off@2x.png in Resources */,
-				01FC929C17E9589300D9FD07 /* cb_green_on.png in Resources */,
-				01FC929D17E9589300D9FD07 /* cb_green_on@2x.png in Resources */,
-				01FC929E17E9589300D9FD07 /* cb_mono_off.png in Resources */,
-				01FC929F17E9589300D9FD07 /* cb_mono_off@2x.png in Resources */,
-				01FC92A017E9589300D9FD07 /* cb_mono_on.png in Resources */,
-				01FC92A117E9589300D9FD07 /* cb_mono_on@2x.png in Resources */,
-				01FFD0AB17EAB9DC00F02610 /* 023-vote-item-box-1.png in Resources */,
-				01FFD0AC17EAB9DC00F02610 /* 024-vote-item-box-2.png in Resources */,
-				01FFD0B217EADF9E00F02610 /* 035-vote-star-1.png in Resources */,
-				01FFD0B417EADFA700F02610 /* 036-vote-star-2.png in Resources */,
+				8AFAF605181A45D000A3EAAB /* radio_checked.png in Resources */,
+				8AFAF607181A45D000A3EAAB /* radio_unchecked.png in Resources */,
+				8AFAF608181A45D000A3EAAB /* radio_unchecked@2x.png in Resources */,
+				8AFAF610181A712A00A3EAAB /* solidstar@2x.png in Resources */,
+				8AFAF5FD181A45C700A3EAAB /* checkbox_checked.png in Resources */,
+				8AFAF600181A45C700A3EAAB /* checkbox_unchecked@2x.png in Resources */,
+				8AFAF5FE181A45C700A3EAAB /* checkbox_checked@2x.png in Resources */,
+				8AFAF60F181A712A00A3EAAB /* emptystar@2x.png in Resources */,
+				8AFAF606181A45D000A3EAAB /* radio_checked@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,9 +256,9 @@
 				01FC924B17E9434100D9FD07 /* main.m in Sources */,
 				01FC924F17E9434100D9FD07 /* BUTAppDelegate.m in Sources */,
 				01FC925817E9434100D9FD07 /* BUTViewController.m in Sources */,
-				01FC926C17E94AFC00D9FD07 /* QCheckBox.m in Sources */,
-				01FC927417E9539100D9FD07 /* QRadioButton.m in Sources */,
-				01FFD0B017EAD7CA00F02610 /* RatingControl.m in Sources */,
+				8AFAF5F4181A459800A3EAAB /* CUIRadioButton.m in Sources */,
+				8AFAF60E181A712A00A3EAAB /* CUIRatingControl.m in Sources */,
+				8AFAF5F3181A459800A3EAAB /* CUICheckBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
