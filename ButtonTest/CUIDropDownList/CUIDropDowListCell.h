@@ -1,0 +1,13 @@
+//
+//  CUIDropDowListCell.h
+//  ButtonTest
+//
+//  Created by jianglinjie on 13-11-19.
+//  Copyright (c) 2013年 jianglingjie. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CUIDropDowListCell : UITableViewCell
+
+@end
