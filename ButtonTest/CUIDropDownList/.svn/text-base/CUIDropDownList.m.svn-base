@@ -431,7 +431,7 @@
     if(_state == Expanded)
     {
         [self closeListwithCompletionBlock:^{
-            NSLog(@"Closed Finished");
+            LOG_UI_DEBUG(@"Closed Finished");
         }];
     }
 }
